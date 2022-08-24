@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  &::after,
+  &::before {
+    box-sizing: border-box;
+  }
+}
+body {
+  font-family: 'Lato', 'Roboto', sans-serif;
+  color: $primary-black;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: $primary-black;
+}
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 1;
+}

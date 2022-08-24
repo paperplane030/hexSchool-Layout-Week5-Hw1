@@ -1,0 +1,351 @@
+---
+title: Admin | ANSWER
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<section class="index p-5">
+  <div class="header row g-0 align-items-center mb-5">
+    <div class="col-auto">
+      <h2 class="fw-bold fs-4 lh-base me-6 mb-0">Admin</h2>
+    </div>
+    <div class="col-auto">
+      <div class="dropdown">
+        <a
+          href="javascript:;"
+          class="fw-bold p-0 hover-change-main-color"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          data-bs-offset="0,10"
+          aria-expanded="false"
+        >
+          <span class="material-symbols-outlined align-bottom me-1 text-success"
+            >Add</span
+          >
+          Add New Admin
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item disabled" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col"></div>
+    <div class="col-auto me-4">
+      <a href="javascript:;" class="fw-bold p-0 hover-change-main-color">
+        <span class="material-symbols-outlined align-bottom me-1">Search</span>
+      </a>
+    </div>
+    <div class="col-auto">
+      <a href="javascript:;" class="fw-bold p-0 hover-change-main-color">
+        <span class="material-symbols-outlined align-bottom me-1"
+          >Notifications_active</span
+        >
+      </a>
+    </div>
+  </div>
+  <div class="table mb-7">
+    <table class="table lh-base">
+      <thead>
+        <tr>
+          <th scope="col " class="fw-bold">
+            ID<span
+              class="material-symbols-outlined align-bottom me-1 text-success"
+              >arrow_downward</span
+            >
+          </th>
+          <th scope="col" class="fw-bold">Name</th>
+          <th scope="col" class="fw-bold">Email</th>
+          <th scope="col" class="fw-bold">Verified</th>
+          <th scope="col" class="fw-bold"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="py-3">#1</td>
+          <td class="py-3">Emir Wicks</td>
+          <td class="py-3">emir.wicks@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a
+              href="javascript:;"
+              class="me-4 hover-change-main-color"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <span class="material-symbols-outlined align-bottom"
+                >Visibility</span
+              >
+            </a>
+            <a href="javascript:;" class="hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom">Edit</span>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="py-3">#2</td>
+          <td class="py-3">Zaina Goldsmith</td>
+          <td class="py-3">zaina.goldsmith@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="javascript:;" class="me-4 hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom"
+                >Visibility</span
+              >
+            </a>
+            <a href="javascript:;" class="hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom">Edit</span>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="py-3">#3</td>
+          <td class="py-3">Mahima Lopez</td>
+          <td class="py-3">mahima.lopez@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="javascript:;" class="me-4 hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom"
+                >Visibility</span
+              >
+            </a>
+            <a href="javascript:;" class="hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom">Edit</span>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="py-3">#4</td>
+          <td class="py-3">Pharrell Murray</td>
+          <td class="py-3">pharrell.murray@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="javascript:;" class="me-4 hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom"
+                >Visibility</span
+              >
+            </a>
+            <a href="javascript:;" class="hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom">Edit</span>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="py-3">#5</td>
+          <td class="py-3">Annika Mcbride</td>
+          <td class="py-3">Aannika.mcbride@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="javascript:;" class="me-4 hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom"
+                >Visibility</span
+              >
+            </a>
+            <a href="javascript:;" class="hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom">Edit</span>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="py-3">#6</td>
+          <td class="py-3">Fatimah Clark</td>
+          <td class="py-3">fatimah.clark@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="javascript:;" class="me-4 hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom"
+                >Visibility</span
+              >
+            </a>
+            <a href="javascript:;" class="hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom">Edit</span>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="py-3">#7</td>
+          <td class="py-3">Klaudia Rhodes</td>
+          <td class="py-3">klaudia.rhodes@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="javascript:;" class="me-4 hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom"
+                >Visibility</span
+              >
+            </a>
+            <a href="javascript:;" class="hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom">Edit</span>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="py-3">#8</td>
+          <td class="py-3">Tillie Lucero</td>
+          <td class="py-3">Tillie Lucero</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="javascript:;" class="me-4 hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom"
+                >Visibility</span
+              >
+            </a>
+            <a href="javascript:;" class="hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom">Edit</span>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="py-3">#9</td>
+          <td class="py-3">Tillie Lucero</td>
+          <td class="py-3">sabrina.stephenson@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="javascript:;" class="me-4 hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom"
+                >Visibility</span
+              >
+            </a>
+            <a href="javascript:;" class="hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom">Edit</span>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="py-3">#10</td>
+          <td class="py-3">Annie Smith</td>
+          <td class="py-3">annie.smith@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="javascript:;" class="me-4 hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom"
+                >Visibility</span
+              >
+            </a>
+            <a href="javascript:;" class="hover-change-main-color">
+              <span class="material-symbols-outlined align-bottom">Edit</span>
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <nav aria-label="Page navigation example" class="d-flex justify-content-end">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span class="material-symbols-outlined align-bottom"
+            >navigate_before
+          </span>
+        </a>
+      </li>
+      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span class="material-symbols-outlined align-bottom"
+            >navigate_next
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</section>
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div> -->
+      <div class="modal-body p-5">
+        <div class="d-flex align-items-start">
+          <div class="flex-shrink-0 modal-img">
+            <img src="./assets/images/emir.jpeg" alt="emir" />
+          </div>
+          <div class="flex-grow-1 ms-4">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span>#1</span>
+              <a
+                href="javascript:;"
+                class="hover-change-main-color"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <span class="material-symbols-outlined align-bottom"
+                  >close</span
+                >
+              </a>
+            </div>
+            <p class="mb-0">Admin</p>
+            <p class="name fs-4 fw-bold mb-1">Emir Wicks</p>
+            <p class="email text-gray-600 fs-special mb-3">
+              emir.wicks@mail.com
+            </p>
+            <div class="d-flex justify-content-between">
+              <span class="badge bg-light text-dark fs-special">Verified</span>
+              <p class="mb-0">
+                <a
+                  data-bs-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                  id="modal-expand"
+                >
+                  <span class="material-symbols-outlined align-bottom"
+                    >expand_more
+                  </span>
+                </a>
+              </p>
+            </div>
+            <div class="collapse mt-5" id="collapseExample">
+              <div
+                class="card card-body border-0 p-0 flex-row justify-content-between"
+              >
+                <!-- <div class="col flex-grow-1 me-3"> -->
+                <button
+                  type="button"
+                  class="btn btn-outline-danger fw-bold px-5 py-1 me-3 rounded-special"
+                >
+                  Deactivate
+                </button>
+                <!-- </div> -->
+                <!-- <div class="col"> -->
+                <button
+                  type="button"
+                  class="btn btn-success fw-bold px-5 py-1 rounded-special"
+                >
+                  Edit
+                </button>
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

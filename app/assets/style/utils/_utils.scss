@@ -1,0 +1,10 @@
+.hover-change-main-color {
+  color: $primary-black;
+  &:hover {
+    color: $success;
+  }
+}
+
+.text-gray-600 {
+  color: $gray-600;
+}
